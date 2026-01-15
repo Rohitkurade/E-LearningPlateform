@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Details - EduLearn</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">📚</span>
+                <span class="logo-text">EduLearn</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="progress.html">My Progress</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+            <div class="user-icon">👤</div>
+        </div>
+    </nav>
+
+    <main class="course-detail">
+        <div class="course-header-detail">
+            <div class="header-content">
+                <a href="courses.html" class="back-link">← Back to Courses</a>
+                <h1 id="courseTitle">Web Development Basics</h1>
+                <p id="courseSubtitle" class="course-subtitle">Master the fundamentals of web development</p>
+                <div class="course-meta">
+                    <span class="rating">⭐ 4.8 (1,245 reviews)</span>
+                    <span class="level">Beginner</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="course-detail-container">
+            <div class="course-main">
+                <section class="video-section">
+                    <h2>Video Content</h2>
+                    <div class="video-container">
+                        <iframe id="courseVideo" width="100%" height="500" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Course Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </section>
+
+                <section class="course-info">
+                    <h2>About This Course</h2>
+                    <p id="courseDescription">Learn the fundamentals of web development including HTML, CSS, and JavaScript. This comprehensive course covers everything you need to know to start building responsive websites.</p>
+                </section>
+
+                <section class="course-curriculum">
+                    <h2>Course Curriculum</h2>
+                    <div class="curriculum-sections" id="curriculumSections">
+                        <!-- Sections populated by JavaScript -->
+                    </div>
+                </section>
+
+                <section class="instructor-section">
+                    <h2>Your Instructor</h2>
+                    <div class="instructor-card">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%234A90E2'/%3E%3Ctext x='50%25' y='50%25' font-size='50' fill='white' text-anchor='middle' dominant-baseline='middle'%3EJD%3C/text%3E%3C/svg%3E" alt="Instructor" class="instructor-avatar">
+                        <div class="instructor-info">
+                            <h3 id="instructorName">John Doe</h3>
+                            <p id="instructorRole">Senior Web Developer</p>
+                            <p id="instructorBio">With 10+ years of experience in web development, John has helped thousands of students master modern web technologies.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <aside class="course-sidebar">
+                <div class="course-card-detail">
+                    <div class="card-price">$49.99</div>
+                    <button class="btn btn-primary btn-large enroll-btn-detail">Enroll Now</button>
+                    <button class="btn btn-outline btn-large wishlist-btn">Add to Wishlist</button>
+                    
+                    <div class="course-details-list">
+                        <div class="detail-item">
+                            <span class="detail-label">📚 Lessons</span>
+                            <span class="detail-value" id="lessonCount">24</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">⏱️ Duration</span>
+                            <span class="detail-value" id="courseDuration">12 hours</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">👥 Students</span>
+                            <span class="detail-value" id="studentCount">5,420</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">📊 Level</span>
+                            <span class="detail-value" id="courseLevel">Beginner</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">✅ Certificate</span>
+                            <span class="detail-value">Yes</span>
+                        </div>
+                    </div>
+
+                    <div class="requirements">
+                        <h3>Requirements</h3>
+                        <ul>
+                            <li>Basic computer knowledge</li>
+                            <li>Text editor (VS Code recommended)</li>
+                            <li>Web browser</li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 EduLearn. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

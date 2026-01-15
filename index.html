@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn - E-Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">📚</span>
+                <span class="logo-text">EduLearn</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Dashboard</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="progress.html">My Progress</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+            <div class="user-icon">👤</div>
+        </div>
+    </nav>
+
+    <main class="dashboard">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to EduLearn</h1>
+                <p>Your personal online learning platform</p>
+                <a href="courses.html" class="btn btn-primary">Explore Courses</a>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="stat-card">
+                <div class="stat-number">12</div>
+                <div class="stat-label">Courses Enrolled</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">42%</div>
+                <div class="stat-label">Overall Progress</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">8</div>
+                <div class="stat-label">Hours Learned</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">3</div>
+                <div class="stat-label">Courses Completed</div>
+            </div>
+        </section>
+
+        <section class="recent-courses">
+            <h2>Continue Learning</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-header">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect fill='%234A90E2' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' font-size='48' fill='white' text-anchor='middle' dominant-baseline='middle'%3EWEB%3C/text%3E%3C/svg%3E" alt="Web Development">
+                    </div>
+                    <div class="course-content">
+                        <h3>Web Development Basics</h3>
+                        <p>Learn HTML, CSS, and JavaScript fundamentals</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 65%"></div>
+                        </div>
+                        <p class="progress-text">65% Complete</p>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-header">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect fill='%23E94B3C' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' font-size='48' fill='white' text-anchor='middle' dominant-baseline='middle'%3EPYTHON%3C/text%3E%3C/svg%3E" alt="Python">
+                    </div>
+                    <div class="course-content">
+                        <h3>Python for Data Science</h3>
+                        <p>Master Python programming and data analysis</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 45%"></div>
+                        </div>
+                        <p class="progress-text">45% Complete</p>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-header">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect fill='%2350C878' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' font-size='48' fill='white' text-anchor='middle' dominant-baseline='middle'%3EUI/UX%3C/text%3E%3C/svg%3E" alt="UI/UX Design">
+                    </div>
+                    <div class="course-content">
+                        <h3>UI/UX Design Principles</h3>
+                        <p>Create beautiful and intuitive user interfaces</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 20%"></div>
+                        </div>
+                        <p class="progress-text">20% Complete</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="announcements">
+            <h2>Latest Announcements</h2>
+            <div class="announcement-card">
+                <div class="announcement-date">Jan 15, 2026</div>
+                <h3>New Advanced Python Course Available!</h3>
+                <p>We've just launched a new advanced Python course covering machine learning and AI. Enroll now to get 20% discount!</p>
+            </div>
+            <div class="announcement-card">
+                <div class="announcement-date">Jan 10, 2026</div>
+                <h3>Certificate Program Launched</h3>
+                <p>Complete any of our certification programs to earn recognized credentials in your field.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 EduLearn. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

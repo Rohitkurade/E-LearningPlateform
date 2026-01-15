@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Progress - EduLearn</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">📚</span>
+                <span class="logo-text">EduLearn</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="progress.html" class="active">My Progress</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+            <div class="user-icon">👤</div>
+        </div>
+    </nav>
+
+    <main class="progress-page">
+        <section class="page-header">
+            <h1>My Learning Progress</h1>
+            <p>Track your course completion and achievements</p>
+        </section>
+
+        <section class="progress-overview">
+            <div class="progress-stat">
+                <div class="stat-circle" style="--progress: 42%">
+                    <div class="stat-value">42%</div>
+                </div>
+                <div class="stat-info">
+                    <h3>Overall Progress</h3>
+                    <p>12 courses enrolled</p>
+                </div>
+            </div>
+
+            <div class="progress-stat">
+                <div class="stat-circle" style="--progress: 100%">
+                    <div class="stat-value">3</div>
+                </div>
+                <div class="stat-info">
+                    <h3>Courses Completed</h3>
+                    <p>3 certificates earned</p>
+                </div>
+            </div>
+
+            <div class="progress-stat">
+                <div class="stat-circle" style="--progress: 60%">
+                    <div class="stat-value">8</div>
+                </div>
+                <div class="stat-info">
+                    <h3>Hours Learned</h3>
+                    <p>Cumulative study time</p>
+                </div>
+            </div>
+
+            <div class="progress-stat">
+                <div class="stat-circle" style="--progress: 80%">
+                    <div class="stat-value">12</div>
+                </div>
+                <div class="stat-info">
+                    <h3>Skills Learned</h3>
+                    <p>Technical and professional</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="active-courses">
+            <h2>Active Courses</h2>
+            <div class="progress-list">
+                <div class="progress-item">
+                    <div class="progress-item-header">
+                        <h3>Web Development Basics</h3>
+                        <span class="progress-percentage">65%</span>
+                    </div>
+                    <div class="progress-bar-large">
+                        <div class="progress-fill" style="width: 65%"></div>
+                    </div>
+                    <div class="progress-details">
+                        <span>15 of 24 lessons completed</span>
+                        <button class="btn btn-small btn-primary">Continue Learning</button>
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <div class="progress-item-header">
+                        <h3>Python for Data Science</h3>
+                        <span class="progress-percentage">45%</span>
+                    </div>
+                    <div class="progress-bar-large">
+                        <div class="progress-fill" style="width: 45%"></div>
+                    </div>
+                    <div class="progress-details">
+                        <span>9 of 20 lessons completed</span>
+                        <button class="btn btn-small btn-primary">Continue Learning</button>
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <div class="progress-item-header">
+                        <h3>UI/UX Design Principles</h3>
+                        <span class="progress-percentage">20%</span>
+                    </div>
+                    <div class="progress-bar-large">
+                        <div class="progress-fill" style="width: 20%"></div>
+                    </div>
+                    <div class="progress-details">
+                        <span>4 of 18 lessons completed</span>
+                        <button class="btn btn-small btn-primary">Continue Learning</button>
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <div class="progress-item-header">
+                        <h3>JavaScript Advanced Concepts</h3>
+                        <span class="progress-percentage">85%</span>
+                    </div>
+                    <div class="progress-bar-large">
+                        <div class="progress-fill" style="width: 85%"></div>
+                    </div>
+                    <div class="progress-details">
+                        <span>17 of 20 lessons completed</span>
+                        <button class="btn btn-small btn-primary">Continue Learning</button>
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <div class="progress-item-header">
+                        <h3>React.js Fundamentals</h3>
+                        <span class="progress-percentage">55%</span>
+                    </div>
+                    <div class="progress-bar-large">
+                        <div class="progress-fill" style="width: 55%"></div>
+                    </div>
+                    <div class="progress-details">
+                        <span>11 of 22 lessons completed</span>
+                        <button class="btn btn-small btn-primary">Continue Learning</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="completed-courses">
+            <h2>Completed Courses</h2>
+            <div class="completed-grid">
+                <div class="completed-card">
+                    <div class="completed-badge">✓ Completed</div>
+                    <h3>HTML & CSS Mastery</h3>
+                    <p>Completed on Jan 5, 2026</p>
+                    <button class="btn btn-small btn-outline">View Certificate</button>
+                </div>
+
+                <div class="completed-card">
+                    <div class="completed-badge">✓ Completed</div>
+                    <h3>Git & GitHub Essentials</h3>
+                    <p>Completed on Dec 28, 2025</p>
+                    <button class="btn btn-small btn-outline">View Certificate</button>
+                </div>
+
+                <div class="completed-card">
+                    <div class="completed-badge">✓ Completed</div>
+                    <h3>Responsive Web Design</h3>
+                    <p>Completed on Dec 15, 2025</p>
+                    <button class="btn btn-small btn-outline">View Certificate</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="achievements">
+            <h2>Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement">
+                    <div class="achievement-icon">🏆</div>
+                    <h3>Fast Learner</h3>
+                    <p>Completed 3 courses</p>
+                </div>
+                <div class="achievement">
+                    <div class="achievement-icon">⚡</div>
+                    <h3>Streak Master</h3>
+                    <p>15-day learning streak</p>
+                </div>
+                <div class="achievement">
+                    <div class="achievement-icon">💯</div>
+                    <h3>Perfect Score</h3>
+                    <p>100% quiz accuracy</p>
+                </div>
+                <div class="achievement">
+                    <div class="achievement-icon">🎯</div>
+                    <h3>Goal Setter</h3>
+                    <p>5 learning goals set</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 EduLearn. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - EduLearn</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">📚</span>
+                <span class="logo-text">EduLearn</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="courses.html" class="active">Courses</a></li>
+                <li><a href="progress.html">My Progress</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+            <div class="user-icon">👤</div>
+        </div>
+    </nav>
+
+    <main class="courses-page">
+        <section class="page-header">
+            <h1>All Courses</h1>
+            <p>Browse and enroll in our comprehensive course catalog</p>
+        </section>
+
+        <section class="filters">
+            <input type="text" id="searchInput" placeholder="Search courses..." class="search-input">
+            <select id="categoryFilter" class="category-filter">
+                <option value="">All Categories</option>
+                <option value="web">Web Development</option>
+                <option value="python">Python</option>
+                <option value="design">Design</option>
+                <option value="business">Business</option>
+            </select>
+            <select id="difficultyFilter" class="difficulty-filter">
+                <option value="">All Levels</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+        </section>
+
+        <section class="courses-grid" id="coursesGrid">
+            <!-- Courses will be populated by JavaScript -->
+        </section>
+    </main>
+
+    <div id="courseModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+                <h2 id="modalTitle"></h2>
+                <p id="modalCategory"></p>
+            </div>
+            <div class="modal-body">
+                <p id="modalDescription"></p>
+                <div class="modal-info">
+                    <div class="info-item">
+                        <strong>Instructor:</strong>
+                        <span id="modalInstructor"></span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Duration:</strong>
+                        <span id="modalDuration"></span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Level:</strong>
+                        <span id="modalLevel"></span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Students:</strong>
+                        <span id="modalStudents"></span>
+                    </div>
+                </div>
+                <div class="modal-lessons">
+                    <h3>Course Lessons</h3>
+                    <ul id="lessonsList"></ul>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary close-btn">Close</button>
+                <button class="btn btn-primary enroll-btn">Enroll Now</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2026 EduLearn. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

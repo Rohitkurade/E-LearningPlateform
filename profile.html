@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - EduLearn</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">📚</span>
+                <span class="logo-text">EduLearn</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="progress.html">My Progress</a></li>
+                <li><a href="profile.html" class="active">Profile</a></li>
+            </ul>
+            <div class="user-icon">👤</div>
+        </div>
+    </nav>
+
+    <main class="profile-page">
+        <section class="profile-header">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Ccircle cx='100' cy='100' r='100' fill='%234A90E2'/%3E%3Ctext x='50%25' y='50%25' font-size='100' fill='white' text-anchor='middle' dominant-baseline='middle'%3ERK%3C/text%3E%3C/svg%3E" alt="Profile Avatar" class="profile-avatar">
+            <div class="profile-header-info">
+                <h1>Rohit Kurade</h1>
+                <p class="profile-email">rohit.kurade@example.com</p>
+                <p class="profile-member">Member since December 2024</p>
+            </div>
+            <button class="btn btn-primary edit-profile-btn">Edit Profile</button>
+        </section>
+
+        <div class="profile-container">
+            <div class="profile-main">
+                <section class="profile-section">
+                    <h2>About Me</h2>
+                    <p>Passionate learner interested in web development, data science, and design. Currently working on building full-stack applications and expanding my knowledge in modern web technologies.</p>
+                </section>
+
+                <section class="profile-section">
+                    <h2>Skills</h2>
+                    <div class="skills-grid">
+                        <div class="skill-tag">HTML</div>
+                        <div class="skill-tag">CSS</div>
+                        <div class="skill-tag">JavaScript</div>
+                        <div class="skill-tag">React</div>
+                        <div class="skill-tag">Python</div>
+                        <div class="skill-tag">Data Analysis</div>
+                        <div class="skill-tag">UI Design</div>
+                        <div class="skill-tag">Git</div>
+                    </div>
+                </section>
+
+                <section class="profile-section">
+                    <h2>Learning Goals</h2>
+                    <div class="goals-list">
+                        <div class="goal-item">
+                            <div class="goal-check">✓</div>
+                            <div class="goal-content">
+                                <h3>Master JavaScript</h3>
+                                <p>Complete 5 JavaScript courses by March 2026</p>
+                            </div>
+                            <div class="goal-progress">85%</div>
+                        </div>
+
+                        <div class="goal-item">
+                            <div class="goal-check">○</div>
+                            <div class="goal-content">
+                                <h3>Learn React & Vue</h3>
+                                <p>Build 3 projects with React and 2 with Vue</p>
+                            </div>
+                            <div class="goal-progress">40%</div>
+                        </div>
+
+                        <div class="goal-item">
+                            <div class="goal-check">○</div>
+                            <div class="goal-content">
+                                <h3>Data Science Fundamentals</h3>
+                                <p>Complete Python data science specialization</p>
+                            </div>
+                            <div class="goal-progress">45%</div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="profile-section">
+                    <h2>Social Links</h2>
+                    <div class="social-links">
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Portfolio</a>
+                    </div>
+                </section>
+            </div>
+
+            <aside class="profile-sidebar">
+                <section class="sidebar-card">
+                    <h3>Account Settings</h3>
+                    <ul class="settings-list">
+                        <li><a href="#">Change Password</a></li>
+                        <li><a href="#">Email Preferences</a></li>
+                        <li><a href="#">Privacy Settings</a></li>
+                        <li><a href="#">Notification Settings</a></li>
+                        <li><a href="#">Download Data</a></li>
+                    </ul>
+                </section>
+
+                <section class="sidebar-card">
+                    <h3>Statistics</h3>
+                    <div class="stats-box">
+                        <div class="stat">
+                            <div class="stat-label">Total Hours</div>
+                            <div class="stat-val">24h 35m</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-label">Current Streak</div>
+                            <div class="stat-val">15 days</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-label">Certificates</div>
+                            <div class="stat-val">3</div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="sidebar-card">
+                    <h3>Subscription</h3>
+                    <p class="subscription-status">Premium Member</p>
+                    <p class="subscription-date">Renews on: Feb 15, 2026</p>
+                    <button class="btn btn-primary btn-block">Manage Subscription</button>
+                </section>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 EduLearn. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
