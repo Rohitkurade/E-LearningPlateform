@@ -141,7 +141,7 @@ body {
 }
 
 .btn-outline {
-    border: 2px solid var(--primary-color);
+    border: 1.7px solid var(--primary-color);
     color: var(--primary-color);
     background: transparent;
 }
