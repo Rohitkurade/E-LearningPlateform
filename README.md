@@ -7,7 +7,7 @@ A fully responsive, interactive, and feature-rich e-learning platform with moder
 ### 📚 Course Listing
 - Browse and search through comprehensive course catalog
 - Filter courses by category (Web Development, Python, Design, Business)
-- Filter by difficulty level (Beginner, Intermediate, Advanced)
+- Filter by difficulty level (Beginner, Intermediate, Advanced )
 - View course details with instructor information and student reviews
 - Course cards with progress tracking
 
