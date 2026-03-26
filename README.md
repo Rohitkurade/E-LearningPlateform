@@ -1,7 +1,7 @@
 # EduLearn - E-Learning Platform UI
 
 A fully responsive, interactive, and feature-rich e-learning platform with modern design and smooth user experience.
-
+ 
 ## Features ✨
 
 ### 📚 Course Listing
